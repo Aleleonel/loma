@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Contatos da Agendados{% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Adicione um novo contato:</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" class="btn btn-success" value="Novo Contato">
+    </form>
+</div>
+{% endblock %}

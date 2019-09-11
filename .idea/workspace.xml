@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5337ba3-5dfe-4774-8c2b-b21a26d5c2f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busca/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busca/templates/busca/addcontato.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/busca/templates/busca/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/busca/templates/busca/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/busca/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/busca/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/busca/templates/busca/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/busca/templates/busca/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/busca/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/busca/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/busca/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/busca/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
