@@ -19,7 +19,7 @@
         <li class="task-item">
             <span><a href="busca/{{contato.contato_id}}">{{ contato.contato_nome }}</a></span>
             <span><i class="fas fa-trash"></i></span>
-            <span><i class="fas fa-edit"></i></span>
+            <a href="edit/{{contato.contato_id}}"><span><i class="fas fa-edit"></i></span></a>
         </li>
         {% endfor %}
 

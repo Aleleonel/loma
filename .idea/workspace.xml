@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5337ba3-5dfe-4774-8c2b-b21a26d5c2f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/busca/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/busca/templates/busca/addcontato.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busca/templates/busca/editcontato.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/busca/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/busca/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/busca/templates/busca/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/busca/templates/busca/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/busca/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/busca/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/busca/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/busca/views.py" afterDir="false" />
@@ -52,6 +50,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="soma" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="loma" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/busca/templates/busca" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/busca/templates/busca/soma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.soma" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -73,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

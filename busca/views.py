@@ -24,3 +24,20 @@ def addcontato(request):
     else:
         form = ContatoForm()
         return render(request, 'busca/addcontato.html', {'form': form})
+
+
+def editcontato(request, contato_id):
+    contato = get_object_or_404(Contato, pk=contato_id)
+    form = ContatoForm(instance=contato)
+
+    if(request.method== 'POST'):
+        form = ContatoForm(request.POST, instance=contato)
+
+        if(form.is_valid()):
+            contato.save()
+            return redirect('/')
+        else:
+            return render(request, 'busca/editcontato.html', {'form': form, 'contato': contato})
+
+    else:
+        return render(request, 'busca/editcontato.html', {'form': form, 'contato': contato})
